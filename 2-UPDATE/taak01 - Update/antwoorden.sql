@@ -14,7 +14,14 @@ UPDATE studenten2
 SET adres="Uithoornsestraat", postcode="1433bk"
 WHERE id="10"
 -- Opdracht 3
-
--- Opdracht 4
-
+UPDATE studenten2
+SET geboortedatum= "2000-12-12"
+WHERE student_id="2"
+-- Opdracht 4   geboortedatum verandert naar 0000-00-00 ???
+UPDATE studenten2
+SET geboortedatum = 2000-12-12
+WHERE student_id =2
 -- Opdracht 5
+UPDATE studenten2
+SET voornaam="Johannah"
+WHERE student_id=6
