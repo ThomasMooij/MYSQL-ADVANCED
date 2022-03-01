@@ -1,4 +1,4 @@
-<!-- ONE TO ONE:
+ONE TO ONE:
 klant -> klantenkaart
 klant -> bestellingen
 Auto -> kentekenplaat
@@ -17,4 +17,4 @@ fd
 MANY TO MANY:
 klant -> artikelen
 leraar -> student
-freelancer -> werkgever -->
+freelancer -> werkgever
